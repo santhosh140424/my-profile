@@ -6,6 +6,7 @@ import Profile from './components/Homepage/Homepage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import About from './components/About/About';
 import Education from './components/Education/Education';
+import Projects from './components/Project/Projects';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           </main>
           <About/>
           <Education/>
+          <Projects/>
 
           {/* Footer */}
           <Footer />

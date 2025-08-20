@@ -1,5 +1,6 @@
 import React from 'react';
-import './Homepage.css'; // Custom styles
+import './Homepage.css';
+import Image from '../Images/download.jpeg';
 
 function Home() {
   return (
@@ -44,7 +45,7 @@ function Home() {
           <div className="col-md-6 text-center">
             <div className="baner-image">
               <img 
-                src="/images/santhosh.jpg" 
+                src={Image}
                 alt="Santhosh Kumar" 
                 className="img-fluid rounded-circle shadow-lg profile-img" 
               />

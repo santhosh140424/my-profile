@@ -40,7 +40,7 @@ function Education() {
           </div>
         </div>
         <div className="WorkExperience mb-5 pb-3">
-          <h2 className="display-4 fw-bold">Work Experience</h2>
+          <h2 className="display-4 fw-bold">Experience</h2>
           <div className="experience-item mb-4">
             <h3 className="fw-semibold">Software Engineer</h3>
             <p className="text-muted">Quilltez Soft Solution Pvt Ltd, Chennai, TN</p>
