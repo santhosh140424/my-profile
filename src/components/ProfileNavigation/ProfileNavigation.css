@@ -1,0 +1,90 @@
+.profile-nav-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  background: transparent;
+}
+
+.profile-nav-container.scrolled {
+  background-color: #111;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.profile-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+  height: 90px;
+  align-items: center;
+}
+
+.profile-nav a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  padding-bottom: 4px;
+}
+
+.profile-nav li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;  
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #f39c12;
+  transition: width 0.3s ease;
+}
+
+.profile-nav li a:hover::after,
+.profile-nav li a.active::after {
+  width: 100%;
+}
+.home-link li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li a:hover {
+  background: linear-gradient(270deg, #f39c12, #ff4b2b, #8e44ad, #2ecc71);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientFlow 3s ease infinite;
+}
+
+@keyframes gradientFlow {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.profile-nav .icon img{
+  width: 50px;
+  height: 50px;
+}
+
+.profile-nav .icon {
+  width: 20%;
+  align-self: center;
+}
+
+.profile-nav ul {
+  width: 80%;
+  @media screen and (max-width: 768px) {
+    font-size: 10px;
+    gap: 15px;
+  }
+}
+
+.profile-nav {
+  display: flex;
+}
+

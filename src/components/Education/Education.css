@@ -1,0 +1,105 @@
+#resume {
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+
+h2 {
+  color: black;
+  font-size: 20px !important;
+  text-transform: uppercase;
+  width: 30%;
+}
+
+.education-header {
+  display: flex;
+}
+
+.education-header .education-list {
+  width: 70%;
+}
+
+.education-header .education-list h3 {
+  color: #575353;
+}
+
+.WorkExperience {
+  display: flex;
+}
+
+.WorkExperience .experience-item {
+  width: 70%;
+}
+
+.WorkExperience .experience-item h3 {
+  color: #575353;
+}
+
+.skills {
+  display: flex;
+}
+
+.skills .text-muted{
+  width: 70%;
+}
+
+.skills h2 {
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.skills {
+  margin-bottom: 15px;
+}
+
+.skills span {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.progress {
+  height: 15px;
+  background-color: #e0e0e0;
+  border-radius: 20px;
+}
+
+.progress-bar {
+  border-radius: 20px;
+}
+
+.skills h5 {
+  color: #474646;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.skills span {
+  color: #575353;
+  font-size: 12px;
+}
+
+.skills .skill-text {
+  color: #484646;
+  font-size: 14px;
+}
+
+.education-header,
+.WorkExperience,
+.skills {
+  border-bottom: 2px solid #dddbd9;
+}
+
+.work-header h2 {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.work-header h2::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: orange;
+  margin-top: 5px;
+}
