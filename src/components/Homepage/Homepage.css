@@ -60,9 +60,13 @@
 @media screen and (max-width: 768px) {
   .about-section {
     padding: 40px 20px;
+    padding-top: 90px;
   }
   .about-section .overlay {
     margin-bottom: 20px;
+  }
+  .about-section .overlay {
+    margin-top: 90px;
   }
   .baner-image {
     padding-top: 50px;

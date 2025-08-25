@@ -90,8 +90,7 @@ h2 {
 }
 
 .education-header,
-.WorkExperience,
-.skills {
+.WorkExperience {
   border-bottom: 2px solid #dddbd9;
 }
 
@@ -112,6 +111,7 @@ h2 {
 @media screen and (max-width: 768px) {
   #resume {
     padding-top: 50px;
+    padding-bottom: 0;
   }
   .education-header,
   .WorkExperience,
