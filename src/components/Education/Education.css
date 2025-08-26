@@ -72,6 +72,10 @@ h2 {
   border-radius: 20px;
 }
 
+.bg-warning {
+  background-color: #fb923c !important;
+}
+
 .skills h5 {
   color: #474646;
   text-align: center;
@@ -127,5 +131,23 @@ h2 {
     position: relative;
     border-bottom: 2px solid;
     border-image: linear-gradient(to right, orange, #dddbd9, #575353) 1;
+  }
+  .education-header .education-list {
+    width: 100%;
+    padding: 20px;
+  }
+  .WorkExperience .experience-item {
+    width: 100%;
+    padding: 20px;
+  }
+  .skills .text-muted {
+    width: 100%;
+    padding: 20px;
+  }
+  .skills {
+    margin-bottom: 0 !important;
+  }
+  #resume .resume-section {
+    padding-bottom: 0 !important;
   }
 }

@@ -36,14 +36,14 @@ const ProfileNavigation = () => {
             </a>
           </li>
           <li>
-             <a href="#resume" onClick={scrollToSection('resume')} className="about-link">
+            <a href="#resume" onClick={scrollToSection('resume')} className="about-link">
               Resume
             </a>
           </li>
           <li>
-            <NavLink to="/profile/posts" className={({ isActive }) => isActive ? "active" : ""}>
+            <a href="#profile" onClick={scrollToSection('profile')} className="about-link">
               Portfolio
-            </NavLink>
+            </a>
           </li>
           <li>
             <NavLink to="/profile/testimonials" className={({ isActive }) => isActive ? "active" : ""}>

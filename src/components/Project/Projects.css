@@ -5,7 +5,7 @@
 }
 
 .projects-section {
-  padding: 0;
+  padding: 60px;
   background-color: #2a2a2a;
 }
 
@@ -18,7 +18,7 @@
 .projects-section h2::after {
   content: "";
   display: block;
-  width: 200px;
+  width: 300px;
   border-bottom: 2px solid #f39c12;
   margin: 10px auto 0;
 }
@@ -69,15 +69,13 @@
   transition: transform 0.3s ease;
 }
 
-/* Zoom effect on hover */
 .photo:hover img {
   transform: scale(1.1);
 }
 
-/* Overlay */
 .photo figcaption {
   position: absolute;
-  inset: 0; /* shorthand for top:0; right:0; bottom:0; left:0 */
+  inset: 0;
   background: rgba(0, 0, 0, 0.6);
   color: #fff;
   display: flex;
@@ -90,7 +88,17 @@
   transition: opacity 0.3s ease;
 }
 
-/* Show overlay on hover */
 .photo:hover figcaption {
   opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  #profile ul li.list-none {
+    width: unset !important;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  #profile {
+    padding: 30px;
+  }
 }

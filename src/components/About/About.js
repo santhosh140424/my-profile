@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css'; // Custom styles
-// import profileImage from '../assets/profile.jpg'; // your local image path
+import Profile from '../Images/santhosh.jpeg';
 
 function About() {
   return (
@@ -9,9 +9,9 @@ function About() {
         <div className="bio mb-4">
           <div className="about-image mb-4">
             <img 
-              src="/images/santhosh.jpg" 
+              src={Profile}
               alt="Santhosh Kumar" 
-              className="img-fluid rounded-circle shadow-lg profile-img" 
+              className="img-fluid shadow-lg profile-img" 
             />
           </div>
 

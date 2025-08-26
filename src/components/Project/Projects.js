@@ -57,31 +57,13 @@ const photos = [
     title: "Photo by Green Chameleon on Unsplash",
     description: "A colorful hot air balloon festival",
   },
-  {
-    src: "https://res.cloudinary.com/bowett/image/upload/c_scale,h_533,w_800/v1591525803/codepen/matthew-henry-8Y2nY8cM9nk-unsplash.jpg",
-    alt: "Photo by Matthew Henry on Unsplash",
-    title: "Photo by Matthew Henry on Unsplash",
-    description: "A snowy mountain peak",
-  },
-  {
-    src: "https://res.cloudinary.com/bowett/image/upload/c_scale,h_533,w_800/v1591525802/codepen/annie-spratt-7YkVu6SJyHo-unsplash.jpg",
-    alt: "Photo by Annie Spratt on Unsplash",
-    title: "Photo by Annie Spratt on Unsplash",
-    description: "A vibrant autumn forest",
-  },
-  {
-    src: "https://res.cloudinary.com/bowett/image/upload/c_scale,h_533,w_800/v1591525801/codepen/jonathan-borba-TamMbr4okv4-unsplash.jpg",
-    alt: "Photo by Jonathan Borba on Unsplash",
-    title: "Photo by Jonathan Borba on Unsplash",
-    description: "A stunning waterfall in the jungle",
-  },
 ];
 
 const ProjectShowcase = () => {
   return (
-    <section className="projects-section">
+    <section id="profile" className="projects-section">
       <h2 className="text-3xl font-bold text-center my-8 text-white relative">
-        Project Showcase
+        Check Out Some of My Work
       </h2>
 
       <ul className="photo-showcase grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 container mx-auto p-4">

@@ -7,27 +7,20 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import About from './components/About/About';
 import Education from './components/Education/Education';
 import Projects from './components/Project/Projects';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
     <Router>
       <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
         <div className="d-flex flex-column min-vh-100">
-          {/* Full width navbar */}
           <Navbar />
-
-          {/* Main content */}
-          <main className="flex-fill">
-            <Routes>
-              <Route path="/" element={<Profile />} />
-            </Routes>
-          </main>
+          <Profile/>
           <About/>
           <Education/>
           <Projects/>
-
-          {/* Footer */}
-          <Footer />
+          <Contact/>          
+          <Footer/>
         </div>
       </div>
     </Router>
