@@ -45,15 +45,15 @@ const ProfileNavigation = () => {
               Portfolio
             </a>
           </li>
-          <li>
+          {/* <li>
             <NavLink to="/profile/testimonials" className={({ isActive }) => isActive ? "active" : ""}>
               Testimonials
             </NavLink>
-          </li>
+          </li> */}
           <li>
-            <NavLink to="/profile/contact" className={({ isActive }) => isActive ? "active" : ""}>
+            <a href="#contact" onClick={scrollToSection('contact')} className="about-link">
               Contact
-            </NavLink>
+            </a>
           </li>
         </ul>
       </nav>
