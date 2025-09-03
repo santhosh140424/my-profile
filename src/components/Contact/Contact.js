@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaEnvelope, FaMapMarkerAlt, FaInstagram, FaGithub } from "react-icons/fa";
 import "./Contact.css";
+import { FaPhone } from "react-icons/fa6";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -53,7 +54,6 @@ const Contact = () => {
               <button type="submit" className="btn-submit">Send Message</button>
             </form>
 
-            {/* Right Side (Info) */}
             <div className="contact-info">
               <p>
                 Here is a good spot for a message to your readers to let them know
@@ -61,11 +61,12 @@ const Contact = () => {
               </p>
               <ul>
                 <li><FaEnvelope /> santhoshkumar140424@gmail.com</li>
+                <li><FaPhone/>+91 9176170978</li>
                 <li><FaMapMarkerAlt /> Chennai City, India</li>
-                <li><FaInstagram /> @yourusername</li>
-                <li><FaGithub /> yourgithub</li>
+                <li><FaInstagram /> @santhoshkumar</li>
+                <li><FaGithub /> santhosh140424</li>
               </ul>
-            </div>                    
+            </div>
           </div>
         </div>
       </div>

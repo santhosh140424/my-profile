@@ -119,6 +119,11 @@
   margin-right: 10px;
 }
 
+.contact-container h2 svg {
+  width: 60px;
+  height: 60px;
+}
+
 @media screen and (max-width: 768px) {
   .contact-container {
     flex-direction: column;

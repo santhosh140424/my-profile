@@ -1,6 +1,6 @@
 import React from 'react';
 import './Homepage.css';
-import Image from '../Images/download.jpeg';
+import Image from '../Images/developer-removebg-preview.png';
 
 function Home() {
   return (
@@ -43,11 +43,11 @@ function Home() {
           </div>
 
           <div className="col-md-6 text-center">
-            <div className="baner-image">
+            <div className="banner-image">
               <img 
                 src={Image}
                 alt="Santhosh Kumar" 
-                className="img-fluid rounded-circle shadow-lg profile-img" 
+                className="img-fluid profile-img"
               />
             </div>
           </div>

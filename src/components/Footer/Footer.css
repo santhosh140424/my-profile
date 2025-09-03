@@ -1,0 +1,28 @@
+.footer {
+  background-color: #111;   /* Dark background */
+  padding: 30px 0;
+  text-align: center;
+  color: #aaa;             /* Light grey text */
+  font-size: 14px;
+  position: relative;
+}
+
+.footer-icons {
+  margin-bottom: 10px;
+}
+
+.footer-icons a {
+  margin: 0 12px;
+  font-size: 20px;
+  color: #aaa;
+  transition: color 0.3s ease;
+}
+
+.footer-icons a:hover {
+  color: #fff;  /* Hover effect */
+}
+
+.footer-copy {
+  margin: 0;
+  font-size: 13px;
+}
