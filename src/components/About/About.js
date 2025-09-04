@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css'; // Custom styles
-import Profile from '../Images/santhosh.jpeg';
+import Profile from '../Images/profile-icon.png';
 
 function About() {
   return (
