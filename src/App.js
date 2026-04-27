@@ -28,7 +28,7 @@ const data = {
         "Architected ISKCON Temple Donation Portal with automated PDF receipt generation and real-time email notifications.",
         "Developed Email & Domain Verification Platform — reduced spam issues by 60% with blacklist/whitelist admin controls.",
         "Designed and documented 20+ RESTful API endpoints with JWT/Sanctum authentication, pagination, and error handling.",
-        "Upgraded Drupal sites across v9 → v10 → v11 with zero data loss; built custom modules, plugins, services, and event subscribers.",
+        "Upgraded Drupal sites acronpm startss v9 → v10 → v11 with zero data loss; built custom modules, plugins, services, and event subscribers.",
         "Integrated Chain Link AI oracle data feeds — reduced manual data entry by 40%, improved client dashboard accuracy.",
         "Participated in Agile sprints, conducted GitHub code reviews, and coordinated zero-downtime production deployments.",
       ],
