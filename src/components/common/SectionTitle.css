@@ -1,0 +1,19 @@
+/* SectionTitle.css */
+.section-title {
+  margin-bottom: 36px;
+}
+
+.section-subtitle {
+  font-size: 11px;
+  letter-spacing: 4px;
+  color: #38bdf8;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.section-heading {
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-weight: 800;
+  color: #f1f5f9;
+  margin: 0;
+}

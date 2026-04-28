@@ -1,0 +1,46 @@
+/* Projects.css */
+.projects-section {
+  padding: 80px 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.project-card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 12px;
+  padding: 22px 22px;
+  height: 100%;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.3);
+}
+
+.project-name {
+  font-weight: 700;
+  font-size: 15px;
+  color: #f1f5f9;
+  margin-bottom: 6px;
+}
+
+.project-tech {
+  font-size: 11px;
+  margin-bottom: 12px;
+  letter-spacing: 0.5px;
+}
+
+.project-desc {
+  font-size: 13px;
+  color: #64748b;
+  line-height: 1.7;
+  margin: 0;
+}

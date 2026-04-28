@@ -1,0 +1,96 @@
+/* Education.css */
+.education-section {
+  padding: 80px 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.education-item {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 12px;
+  padding: 20px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.education-degree {
+  font-weight: 600;
+  font-size: 15px;
+  color: #f1f5f9;
+}
+
+.education-school {
+  font-size: 13px;
+  color: #64748b;
+  margin-top: 4px;
+}
+
+.education-year {
+  background: rgba(56,189,248,0.08);
+  border: 1px solid rgba(56,189,248,0.15);
+  color: #38bdf8;
+  padding: 4px 14px;
+  border-radius: 99px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.languages-section {
+  margin-top: 40px;
+}
+
+.section-title {
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: #475569;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.languages-list {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.language-item {
+  background: rgba(100,116,139,0.12);
+  border: 1px solid rgba(100,116,139,0.2);
+  color: #94a3b8;
+  padding: 6px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+.interests-section {
+  margin-top: 32px;
+}
+
+.interests-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.interest-item {
+  font-size: 13px;
+  color: #64748b;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.interest-bullet {
+  color: #38bdf8;
+  margin-top: 2px;
+}

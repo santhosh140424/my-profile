@@ -1,0 +1,92 @@
+/* Experience.css */
+.experience-section {
+  padding: 80px 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.timeline-container {
+  position: relative;
+  padding-left: 24px;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 7px;
+  top: 8px;
+  bottom: 8px;
+  width: 1px;
+  background: rgba(56,189,248,0.2);
+}
+
+.experience-item {
+  position: relative;
+  margin-bottom: 48px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -21px;
+  top: 4px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #38bdf8;
+  box-shadow: 0 0 10px rgba(56,189,248,0.5);
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.experience-role {
+  font-weight: 700;
+  font-size: 17px;
+  color: #f1f5f9;
+}
+
+.experience-company {
+  font-size: 13px;
+  color: #38bdf8;
+  margin-top: 2px;
+}
+
+.experience-period {
+  background: rgba(56,189,248,0.08);
+  border: 1px solid rgba(56,189,248,0.15);
+  color: #94a3b8;
+  padding: 3px 12px;
+  border-radius: 99px;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.experience-points {
+  margin: 12px 0 0;
+  padding-left: 18px;
+  list-style: none;
+}
+
+.experience-point {
+  font-size: 13px;
+  color: #94a3b8;
+  line-height: 1.7;
+  margin-bottom: 6px;
+  position: relative;
+  padding-left: 12px;
+}
+
+.experience-bullet {
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 4px;
+  height: 4px;
+  background: #38bdf8;
+  border-radius: 50%;
+}
